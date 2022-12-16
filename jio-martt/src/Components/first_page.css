@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+.logo{
+    background-color: RGB(0, 142, 204);   
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+a {
+  text-decoration: none;
+  /* color: var(--black); */
+}
+
+li {
+  list-style: none;
+}
+
+ul{
+   display: flex; 
+   justify-content: space-around;
+}
+/* 
+=================
+Header
+=================
+*/
+
+.header {
+  position: relative;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+ 
+
+/* 
+=================
+Navigation
+=================
+*/
+.navigation {
+  height: 6rem;
+  line-height: 6rem;
+}
+
+.nav-center {
+  position: relative;
+  left: -50px;
+  justify-content: space-between;
+}
+ .nav-link {
+  font-size: 2.7rem;
+  font-weight: bold;
+  padding:1rem;
+  color: white;
+  
+}
+.menu {
+ margin-left: 3rem;
+ margin-top: 1rem;
+  font-size: 4rem;
+  cursor: pointer;
+}
+
+/* Icons */
+
+.icon {
+  cursor: pointer;
+  font-size: 3.2rem;
+  color: white;
+  position: relative;
+  left: 100px;
+  margin-top:-50px; 
+}
+img{
+   margin-top:-120px;
+}
+
+.input-field{
+ margin-left:-800px;
+ border-radius: 5px;
+ height:50px;
+ width: 600px;
+ border: none;
+}
+
+.input-box{
+    margin-top:-55px;
+}
+.nav-item{
+    margin-top:-60px; 
+}
+#slidimg{
+  display: flex;
+  margin-top:100px;
+  height: 500px;
+}
+
